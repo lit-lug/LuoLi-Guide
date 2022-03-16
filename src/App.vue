@@ -2,17 +2,17 @@
   <v-app style="background: rgba(0,0,0,0);">
     <div id="web_bg" :style="'background-image: url(' + imgUrl + ');'"></div>
     <v-app-bar app color="rgba(0,0,0,.2)" dark flat fixed>
-      <v-toolbar-title>洛理指南</v-toolbar-title>
+      <v-toolbar-title>Life In NJU</v-toolbar-title>
       <v-spacer></v-spacer>
       <v-icon
-        @click="open('https://github.com/gaoajia/LuoLi-Guide')"
+        @click="open('https://github.com/idealclover/Life-in-NJU')"
         class="mx-3"
       >
         mdi-github
       </v-icon>
       <v-icon
         class="shareLink"
-        data-clipboard-text="https://iluoli.ren"
+        data-clipboard-text="https://nju.today"
         @click="share"
       >
         mdi-open-in-new
@@ -81,7 +81,7 @@
           </v-row>
         </v-col>
       </v-container>
-      <v-container>
+      <v-container style="flex: 1 1 auto">
         <v-expansion-panels multiple>
           <!-- <v-expansion-panels multiple :value="[0, 1, 2, 3]"> -->
           <v-expansion-panel
@@ -125,18 +125,15 @@
       </v-container>
       <v-col
         class="text-center white--text"
-        style="background-color: rgba(0,0,0,.2);"
+        style="background-color: rgba(0,0,0,.2); flex: 0 1 auto"
         cols="12"
       >
-        Copyright By
-        <a href="https://ajia.ltd" class="white--text" target="_blank"
-          >AjiaErin &emsp;</a
-        >
-        Powered By
+        ©{{ new Date().getFullYear() }}
         <a
-          href="https://github.com/idealclover/Life-in-NJU "
+          href="https://idealclover.top"
           class="white--text"
           target="_blank"
+          rel="noopener noreferrer nofollow"
           >idealclover</a
         >
       </v-col>
@@ -151,16 +148,16 @@
 </template>
 
 <script>
-const axios = require("axios");
+import axios from "axios";
 import Vue from "vue";
 import Vuex from "vuex";
 import createPersiste from "vue-savedata";
 import NativeShare from "nativeshare";
 import Clipboard from "clipboard";
 
-const dataUrl = "https://image.gaoajia.com/wiki/iluoli/home/";
+const dataUrl = "https://image.idealclover.cn/projects/Life-in-NJU/";
 const imgUrl =
-  dataUrl + "background/bg" + Math.floor(Math.random() * 4) + ".jpg";
+  dataUrl + "background/bg" + Math.floor(Math.random() * 10) + ".jpg";
 
 new Clipboard(".shareLink");
 Vue.use(Vuex);
@@ -212,16 +209,17 @@ export default {
   methods: {
     open: function(link) {
       // window.location.href = link;
-      window.open(link);
+      let tab = window.open(link);
+      tab.opener = null;
+      tab.location = link;
     },
     share: function() {
       nativeShare.setShareData({
-        icon:
-          "https://image.gaoajia.com/lit-ajia-ltd/android-chrome-192x192.png",
-        link: "https://iluoli.ren",
-        title: "洛理指南",
-        desc: "洛理人的专属导航页！",
-        from: "@阿加Erin"
+        icon: "https://nju.today/img/icons/android-chrome-192x192.png",
+        link: "https://nju.today",
+        title: "南哪指南",
+        desc: "南哪人的专属导航页！",
+        from: "@idealclover"
       });
 
       // 唤起浏览器原生分享组件(如果在微信中不会唤起，此时call方法只会设置文案。类似setShareData)
@@ -251,3 +249,11 @@ export default {
   }
 };
 </script>
+
+<style>
+/*因为v-content无法操作slot的临时hack，可能需要修改布局*/
+div[class="v-content__wrap"] {
+  display: flex;
+  flex-direction: column;
+}
+</style>
