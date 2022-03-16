@@ -1,0 +1,173 @@
+[
+    {
+        "title": "洛理校园",
+        "items": [
+            {
+                "name": "新生必看",
+                "link": "https://wiki.iluoli.ren/",
+                "description": "看了这些基本不用到处问人了"
+            },
+            {
+                "name": "校园网专区",
+                "link": "https://wiki.iluoli.ren/",
+                "description": "校园网使用的正确姿势！！！"
+            },
+            {
+                "name": "衣食住行",
+                "link": "",
+                "description": "小编加班赶搞中···马上上线！"
+            },
+            {
+                "name": "医疗相关",
+                "link": "",
+                "description": "小编加班赶搞中···马上上线！~"
+            },
+            {
+                "name": "实用服务",
+                "link": "",
+                "description": "小编加班赶搞中···马上上线！"
+            },
+            {
+                "name": "社团实践",
+                "link": "",
+                "description": "小编加班赶搞中···马上上线！"
+            },
+            {
+                "name": "宿舍相关",
+                "link": "",
+                "description": "小编加班赶搞中···马上上线！"
+            },
+            {
+                "name": "校园服务",
+                "link": "",
+                "description": "小编加班赶搞中···马上上线！"
+            },
+            {
+                "name": "本科学工通讯录",
+                "link": "",
+                "description": "小编加班赶搞中···马上上线！"
+            },
+            {
+                "name": "学生服务",
+                "link": "",
+                "description": "小编加班赶搞中···马上上线！"
+            },
+            {
+                "name": "证件办理",
+                "link": "",
+                "description": "小编加班赶搞中···马上上线！"
+            },
+            {
+                "name": "户籍管理",
+                "link": "",
+                "description": "小编加班赶搞中···马上上线！"
+            }
+        ]
+    },
+    {
+        "title": "学习科研",
+        "items": [
+            {
+                "name": "教务系统",
+                "link": "https://www.lit.edu.cn/jwc/jwwlglxt.htm",
+                "description": "选课、课表都在这里"
+            },
+            {
+                "name": "教务处",
+                "link": "https://www.lit.edu.cn/jwc/",
+                "description": "最新教学通知第一时间获取"
+            },
+            {
+                "name": "学生工作处",
+                "link": "http://www.lit.edu.cn/xxscwz/",
+                "description": "智慧学工及各种文件表格就在这里"
+            },
+            {
+                "name": "洛理图书馆",
+                "link": "https://www.lit.edu.cn/tsg/",
+                "description": "图书馆相关指南看这里"
+            },
+            {
+                "name": "英语四六级",
+                "link": "http://cet-bm.neea.edu.cn/",
+                "description": "四六级报名及准考证服务"
+            },
+            {
+                "name": "教学质量管理平台",
+                "link": "https://jpv2-2.mycospxk.com/wx/ver2.23.1.1/index.html?v=2.23.1.1#/user/login",
+                "description": "评教工作，微信打开更方便哦"
+            }
+        ]
+    },
+    {
+        "title": "信息服务",
+        "items": [
+            {
+                "name": "智慧洛理APP",
+                "link": "http://my.sec.lit.edu.cn:8081/pc/lit/app-download/index.html",
+                "description": "通知公告及自助交电费"
+            },
+            {
+                "name": "健康管控平台",
+                "link": "http://hmgr.sec.lit.edu.cn/",
+                "description": "每日体温上报，健康打卡"
+            },
+            {
+                "name": "一卡通系统",
+                "link": "https://sec.lit.edu.cn/webvpn/LjIwNi4xNzAuMjE4LjE2Mg==/LjE1MS4xMTEuMTUyLjk2LjEwMi4xMDguMTA0Ljk3LjEwMC4xNDguMTA1LjE0NC4xNDguMTU1/JZforBY_SSO/SSOLogin.aspx?vpn-0/",
+                "description": "一卡通挂失，余额查询等"
+            },
+            {
+                "name": "智慧校园门户",
+                "link": "https://itsc.nju.edu.cn/zbrj/list.htm",
+                "description": "咱洛理的办事大厅"
+            },
+            {
+                "name": "邮箱别名",
+                "link": "https://mail.lit.edu.cn/",
+                "description": "学生邮箱一堆数字看起来一点也不时髦？试试这个"
+            }
+        ]
+    },
+    {
+        "title": "优秀项目",
+        "items": [
+            {
+                "name": "洛理学子的专属项目（欢迎来投稿）",
+                "link": "https://wiki.iluoli.ren/message.html",
+                "description": "点击留言即可"
+            }
+        ]
+    },
+    {
+        "title": "投稿建议",
+        "items": [
+            {
+                "name": "讨论群",
+                "link": "https://qm.qq.com/cgi-bin/qm/qr?k=xGOP8Ch_bY7Z12-eGre4ZeK-_TOYwuAS&jump_from=webapi",
+                "description": "加入讨论群提出意见建议！"
+            },
+            {
+                "name": "投稿与建议",
+                "link": "http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=_J_Zl5mSkZm4iYnWm5eV",
+                "description": "背景投稿与功能建议"
+            }
+        ]
+    },
+    {
+        "title": "友情链接",
+        "items": [
+            {
+                "name": "阿加Erin",
+                "link": "https://ajia.ltd",
+                "description": "@AjiaErin 是站长丫"
+            },
+            
+            {
+                "name": "来赞助我",
+                "link": "https://www.gaoajia.com/zanzhu.html",
+                "description": "来请我吃棒棒糖！"
+            }
+        ]
+    }
+]
