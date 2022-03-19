@@ -1,30 +1,21 @@
 # Luoli Guide
 
-
-
-
-
 ## About
 
 #### [homepage](https://github.com/gaoajia/LuoLi-Guide)
 
 - This project is copied from [Life-in-NJU](https://github.com/idealclover/Life-in-NJU)
 
-
-
-
 ## Develop and debug
 
-### homepage
 
 ```
 yarn install
-yarn serve
+yarn dev
 yarn lint
 yarn build
 
 ```
-
 
 ## Suggestions 
 

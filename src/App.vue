@@ -2,17 +2,17 @@
   <v-app style="background: rgba(0,0,0,0);">
     <div id="web_bg" :style="'background-image: url(' + imgUrl + ');'"></div>
     <v-app-bar app color="rgba(0,0,0,.2)" dark flat fixed>
-      <v-toolbar-title>Life In NJU</v-toolbar-title>
+      <v-toolbar-title>洛理指南</v-toolbar-title>
       <v-spacer></v-spacer>
       <v-icon
-        @click="open('https://github.com/idealclover/Life-in-NJU')"
+        @click="open('https://github.com/lit-lug/LuoLi-Guide')"
         class="mx-3"
       >
         mdi-github
       </v-icon>
       <v-icon
         class="shareLink"
-        data-clipboard-text="https://nju.today"
+        data-clipboard-text="https://www.iluoli.ren"
         @click="share"
       >
         mdi-open-in-new
@@ -130,11 +130,11 @@
       >
         ©{{ new Date().getFullYear() }}
         <a
-          href="https://idealclover.top"
+          href="https://www.litunix.org"
           class="white--text"
           target="_blank"
           rel="noopener noreferrer nofollow"
-          >idealclover</a
+          >LITLUG</a
         >
       </v-col>
       <v-snackbar v-model="snackbar">
@@ -155,9 +155,9 @@ import createPersiste from "vue-savedata";
 import NativeShare from "nativeshare";
 import Clipboard from "clipboard";
 
-const dataUrl = "https://image.idealclover.cn/projects/Life-in-NJU/";
+const dataUrl = "https://image.gaoajia.com/wiki/iluoli/home/";
 const imgUrl =
-  dataUrl + "background/bg" + Math.floor(Math.random() * 10) + ".jpg";
+  dataUrl + "background/bg" + Math.floor(Math.random() * 4) + ".jpg";
 
 new Clipboard(".shareLink");
 Vue.use(Vuex);
@@ -215,11 +215,11 @@ export default {
     },
     share: function() {
       nativeShare.setShareData({
-        icon: "https://nju.today/img/icons/android-chrome-192x192.png",
-        link: "https://nju.today",
-        title: "南哪指南",
-        desc: "南哪人的专属导航页！",
-        from: "@idealclover"
+        icon: "https://www.iluoli.ren/img/icons/android-chrome-192x192.png",
+        link: "https://www.iluoli.ren",
+        title: "洛理指南",
+        desc: "洛理人的专属导航页！",
+        from: "@LITLUG"
       });
 
       // 唤起浏览器原生分享组件(如果在微信中不会唤起，此时call方法只会设置文案。类似setShareData)
