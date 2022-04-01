@@ -32,7 +32,7 @@ module.exports = [
     { text: '投稿建议', link: '/'},
     { text: '洛理指南', link: '/'},
     { text: '优秀项目', link: '/'},
-    { text: '开发指南', link: '/'},
+    { text: '开发指南', link: '/pages/95052e/'},
    ]
   }
 ]
