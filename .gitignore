@@ -5,9 +5,6 @@ node_modules
 /docs/package-lock.json
 /docs/docs/.vuepress/dist
 
-yarn.lock
-/docs/yarn.lock
-
 # local env files
 .env.local
 .env.*.local
