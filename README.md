@@ -2,9 +2,13 @@
 
 ## About
 
-#### [homepage](https://github.com/gaoajia/LuoLi-Guide)
+#### [homepage](https://www.iluoli.ren)
 
 - This project is copied from [Life-in-NJU](https://github.com/idealclover/Life-in-NJU)
+
+#### [Docs](https://www.iluoli.ren/docs)
+
+- Theme By Vdoing
 
 ## Develop and debug
 
