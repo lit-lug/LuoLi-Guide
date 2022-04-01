@@ -6,8 +6,17 @@ set -e
 # 生成静态文件
 yarn build
 
+mkdir dist/docs
+# 进入docs
+cd docs
+
+yarn install 
+
+yarn build
+
+cp -r docs/.vuepress/dist/* ../dist/docs
 # 进入生成的文件夹
-cd dist
+cd ../dist
 
 if [ -z "$GUIDE_GITHUB_TOKEN" ]; then
   msg='来自手动部署'

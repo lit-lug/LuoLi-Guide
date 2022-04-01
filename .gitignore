@@ -1,6 +1,10 @@
 .DS_Store
 node_modules
 /dist
+/docs/node_modules
+/docs/package-lock.json
+/docs/docs/.vuepress/dist
+
 
 # local env files
 .env.local

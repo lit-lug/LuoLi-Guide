@@ -4,57 +4,57 @@
         "items": [
             {
                 "name": "新生必看",
-                "link": "https://wiki.iluoli.ren/",
+                "link": "/docs",
                 "description": "看了这些基本不用到处问人了"
             },
             {
                 "name": "校园网专区",
-                "link": "https://wiki.iluoli.ren/",
+                "link": "/docs",
                 "description": "校园网使用的正确姿势！！！"
             },
             {
                 "name": "医疗相关",
-                "link": "",
+                "link": "/docs",
                 "description": "小编加班赶搞中···马上上线！~"
             },
             {
                 "name": "实用服务",
-                "link": "",
+                "link": "/docs",
                 "description": "小编加班赶搞中···马上上线！"
             },
             {
                 "name": "社团实践",
-                "link": "",
+                "link": "/docs",
                 "description": "小编加班赶搞中···马上上线！"
             },
             {
                 "name": "宿舍相关",
-                "link": "",
+                "link": "/docs",
                 "description": "小编加班赶搞中···马上上线！"
             },
             {
                 "name": "校园服务",
-                "link": "",
+                "link": "/docs",
                 "description": "小编加班赶搞中···马上上线！"
             },
             {
                 "name": "本科学工通讯录",
-                "link": "",
+                "link": "/docs",
                 "description": "小编加班赶搞中···马上上线！"
             },
             {
                 "name": "学生服务",
-                "link": "",
+                "link": "/docs",
                 "description": "小编加班赶搞中···马上上线！"
             },
             {
                 "name": "证件办理",
-                "link": "",
+                "link": "/docs",
                 "description": "小编加班赶搞中···马上上线！"
             },
             {
                 "name": "户籍管理",
-                "link": "",
+                "link": "/docs",
                 "description": "小编加班赶搞中···马上上线！"
             }
         ]
