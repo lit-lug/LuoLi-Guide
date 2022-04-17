@@ -12,12 +12,12 @@
     </div>
 
     <!--Vdoing主题遵循MIT协议，完全开源且免费。如果您对主题的修改并不大，希望您保留主题的链接。-->
-    Theme by
+
     <a
-      href="https://github.com/xugaoyi/vuepress-theme-vdoing"
+      href="https://creativecommons.org/licenses/by-sa/4.0/deed.zh"
       target="_blank"
-      title="本站主题"
-      >Vdoing</a
+      title="本作品采用 知识共享署名-相同方式共享 4.0 国际许可协议 进行许可"
+      >CC BY-SA 4.0</a
     >
     <template v-if="footer">
       | Copyright © {{ footer.createYear }}-{{ new Date().getFullYear() }}
