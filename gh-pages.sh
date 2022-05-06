@@ -8,7 +8,7 @@ yarn build
 
 mkdir dist/docs
 # 进入docs
-cd docs
+cd wiki
 
 yarn install 
 
