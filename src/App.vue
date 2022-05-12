@@ -155,7 +155,7 @@ import createPersiste from "vue-savedata";
 import NativeShare from "nativeshare";
 import Clipboard from "clipboard";
 
-const dataUrl = "https://image.gaoajia.com/wiki/iluoli/home/";
+const dataUrl = "https://image.gaoajia.com/i/wiki/iluoli/home/";
 const imgUrl =
   dataUrl + "background/bg" + Math.floor(Math.random() * 4) + ".jpg";
 
