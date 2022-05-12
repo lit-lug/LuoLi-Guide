@@ -4,7 +4,7 @@ heroImage: https://image.gaoajia.com/i/2021/05/10/919c2f72d0238.png
 heroText: 洛理指南
 tagline: 🏠 各种指南，应有尽有！这儿就是咱的家了
 actionText: 开始使用  →
-actionLink: /pages/about/
+actionLink: /pages/95052e/
 bannerBg: none 
 
 features: 
