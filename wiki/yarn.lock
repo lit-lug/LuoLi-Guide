@@ -8421,7 +8421,7 @@ vuepress-plugin-zooming@^1.1.7:
   dependencies:
     zooming "^2.1.1"
 
-vuepress-theme-vdoing@^1.10.4:
+vuepress-theme-vdoing@^1.12.3:
   version "1.12.3"
   resolved "https://registry.yarnpkg.com/vuepress-theme-vdoing/-/vuepress-theme-vdoing-1.12.3.tgz#2d6a623653854385d12ddc763454a84feffa4533"
   integrity sha512-LVyyTDrK0e+Fr5MAGMhaeci0Y3N/hczKG4rzxtuvQq71w4HcnCm+CXTLnHczxQ4aroqqR96caJmwxzfWjVqRbw==
