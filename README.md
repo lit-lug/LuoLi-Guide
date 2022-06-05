@@ -8,7 +8,7 @@
 
 #### [Docs](https://www.iluoli.ren/docs)
 
-- Theme By Vdoing
+- Theme By [Vdoing](https://github.com/xugaoyi/vuepress-theme-vdoing)
 
 ## Develop and debug
 
