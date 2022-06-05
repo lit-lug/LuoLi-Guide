@@ -1,13 +1,15 @@
 .DS_Store
 node_modules
 /dist
-/docs/node_modules
-/docs/package-lock.json
-/docs/docs/.vuepress/dist
+/wiki/node_modules
+/wiki/package-lock.json
+/wiki/yarn.lock
+/wiki/docs/.vuepress/dist
 
 # local env files
 .env.local
 .env.*.local
+ 
 
 # Log files
 npm-debug.log*
