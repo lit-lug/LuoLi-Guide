@@ -15,7 +15,7 @@ module.exports = [
   },
 
   { text: '信息服务', link: '/', items: [
-    { text: '校园网', link: '/'},
+    { text: '校园网', link: '/pages/f05d2f/'},
     { text: '一卡通', link: '/'},
     { text: '户籍证件', link: '/pages/3efe95/'},
    ]
