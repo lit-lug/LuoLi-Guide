@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>洛理校园VR全景</title>
+    <style>
+        * {
+            margin: 0;
+        }
+
+        #pano {
+            width: 100vw;
+            height: 100vh;
+        }
+    </style>
+</head>
+
+<body id="pano"></body>
+<!--引入three.js-->
+<script src="https://cdn.gaoajia.com/lit-vr/js/three.js"></script>
+<script src="https://cdn.gaoajia.com/lit-vr/js/tpano.js"></script>
+<!--设备朝向控制器，不引入无法使用体感控制-->
+<script src="https://cdn.gaoajia.com/lit-vr/js/DeviceOrientationControls.js"></script>
+<script>
+var tpano = new TPano({
+    el:'pano',//照片查看器根节点dom的id
+    photo:[
+        //全景照片数组，每项为一张照片
+        {
+            url:'https://cdn.gaoajia.com/lit-vr/image/X-ximen01.jpg',
+            name:'开元校区西门'
+        }
+    ]
+})
+</script>
+</html>

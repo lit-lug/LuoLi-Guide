@@ -71,3 +71,13 @@ postList: none
 未经特殊说明，本作品采用 [知识共享署名-相同方式共享 4.0 国际许可协议](https://creativecommons.org/licenses/by-sa/4.0/deed.zh) 进行许可。
 
 更多内容：[版权说明](/pages/aeb847/)
+
+
+
+
+
+## VR测试：
+
+
+
+<iframe :src="$withBase('https://cdn.gaoajia.com/lit-vr/x-ximen01.html')" width="100%" height="400" frameborder="0" scrolling="No" leftmargin="0" topmargin="0"></iframe>
