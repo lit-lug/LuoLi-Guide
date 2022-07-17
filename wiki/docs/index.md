@@ -74,10 +74,3 @@ postList: none
 
 
 
-
-
-## VR测试：
-
-
-
-<iframe :src="$withBase('https://cdn.gaoajia.com/lit-vr/x-ximen01.html')" width="100%" height="400" frameborder="0" scrolling="No" leftmargin="0" topmargin="0"></iframe>

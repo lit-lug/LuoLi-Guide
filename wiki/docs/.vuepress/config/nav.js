@@ -1,7 +1,12 @@
 module.exports = [
   { text: '首页',link: '/'},
   { text: '新生必看', link: '/', items: [
-    { text: '1', link: '/'},
+    { text: '学校概况', items:[
+      {text: '洛理简介', link: '/pages/695063/'},
+      {text: 'VR 洛理', link: '/pages/8d22ca/'},
+      {text: '洛理影像', link: '/pages/871b87/'}
+    ]
+  },
     { text: '2', link: '/'},
     { text: '公众号目录', link: '/pages/15c039/'},
    ]
