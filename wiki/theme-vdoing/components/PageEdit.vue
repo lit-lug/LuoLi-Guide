@@ -56,7 +56,7 @@ export default {
       const {
         repo,
         docsDir = '',
-        docsBranch = 'main',
+        docsBranch = 'main/wiki',
         docsRepo = repo
       } = this.$site.themeConfig
 
