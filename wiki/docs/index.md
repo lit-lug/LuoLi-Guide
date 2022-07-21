@@ -42,6 +42,9 @@ postList: none
 
 - 记住我们的网站域名：`www.iluoli.ren` 寓意：“爱洛理人”
 
+- 加入洛理指南反馈交流群<a target="_blank" href="https://qm.qq.com/cgi-bin/qm/qr?k=GPSdvfBJNOLQYBVRhJN2f19CKXWJP5la&jump_from=webapi"><img border="0" src="https://pub.idqqimg.com/wpa/images/group.png" alt="🏠洛理指南反馈交流" title="🏠洛理指南反馈交流"></a>
+  
+
 
 ## 📝 编辑组招新 <Badge text="参与贡献"/>
 
