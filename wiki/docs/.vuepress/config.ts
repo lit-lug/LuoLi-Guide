@@ -86,7 +86,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         {
           iconClass: 'icon-github',
           title: 'GitHub',
-          link: 'https://github.com/lit-lug/LuoLi-Guide-wiki'
+          link: 'https://github.com/lit-lug/LuoLi-Guide'
         }
       ],
     },
@@ -101,6 +101,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
   // 注入到页面<head>中的标签，格式[tagName, { attrName: attrValue }, innerHTML?]
   head: [
     ['link', { rel: 'icon', href: '/img/favicon.ico' }], //favicons，资源放在public文件夹
+    ['script', { src: 'https://cdn.gaoajia.com/Twikoo/twikoo.all.min.js' }],//自建twikoo cdn 当前版本1.6.3
     [
       'meta',
       {
@@ -168,6 +169,12 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
           bgColor: 'rgba(0,0,0,0.6)',
         },
       },
+    ],
+    [
+      {
+          name: 'custom-plugins',//评论
+          globalUIComponents: ["Twikoo"],// 2.x 版本 globalUIComponents 改名为 clientAppRootComponentFiles
+      }
     ],
     [
       '@vuepress/last-updated', // "上次更新"时间格式

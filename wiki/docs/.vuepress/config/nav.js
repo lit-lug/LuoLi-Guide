@@ -31,7 +31,7 @@ module.exports = [
   { text: '关于我们', link: "/", items: [
     { text: '投稿建议', link: '/'},
     { text: '洛理指南', link: '/'},
-    { text: '优秀项目', link: '/'},
+    { text: '评论测试', link: '/pages/70a936/'},
     { text: '开发指南', link: '/pages/95052e/'},
    ]
   }
