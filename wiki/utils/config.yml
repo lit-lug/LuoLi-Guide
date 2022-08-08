@@ -16,5 +16,6 @@ data:
   # 自动显示侧边栏
   sidebar: true
   # 最近更新栏
-  
+  comment: true 
+  # 不显示评论区
 
