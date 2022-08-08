@@ -63,7 +63,12 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
 
     // 侧边栏  'structuring' | { mode: 'structuring', collapsable: Boolean} | 'auto' | <自定义>    温馨提示：目录页数据依赖于结构化的侧边栏数据，如果你不设置为'structuring',将无法使用目录页
     sidebar: 'structuring',
-
+    //新建文档时front matter中额外添加的字段
+    extendFrontmatter: {
+      comment: false ,
+      sidebar: true ,
+      article: false
+    },
     // 文章默认的作者信息，(可在md文件中单独配置此信息) string | {name: string, link?: string}
     author: {
       name: 'AjiaErin', // 必需
@@ -97,7 +102,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
       copyrightInfo: '<a href="https://iluoli.ren" target="_blank" title="洛理指南" >LIT LUG</a> | MIT License',
     },
   },
-
+  
   // 注入到页面<head>中的标签，格式[tagName, { attrName: attrValue }, innerHTML?]
   head: [
     ['link', { rel: 'icon', href: '/img/favicon.ico' }], //favicons，资源放在public文件夹
@@ -190,6 +195,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     lineNumbers: true,
     extractHeaders: ['h2', 'h3', 'h4', 'h5', 'h6'], // 提取标题到侧边栏的级别，默认['h2', 'h3']
   },
+  
 
   // 监听文件变化并重新构建
   extraWatchFiles: [
