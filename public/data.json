@@ -123,9 +123,9 @@
         "title": "优秀项目",
         "items": [
             {
-                "name": "洛理学子的专属项目（欢迎来投稿）",
-                "link": "https://wiki.iluoli.ren/message.html",
-                "description": "点击留言即可"
+                "name": "云小洛",
+                "link": "https://air-lit.icepie.net/static/pc.html",
+                "description": "一个为洛理打造的校园实用小工具"
             }
         ]
     },
@@ -134,12 +134,12 @@
         "items": [
             {
                 "name": "讨论群",
-                "link": "https://qm.qq.com/cgi-bin/qm/qr?k=xGOP8Ch_bY7Z12-eGre4ZeK-_TOYwuAS&jump_from=webapi",
+                "link": "https://qm.qq.com/cgi-bin/qm/qr?k=GPSdvfBJNOLQYBVRhJN2f19CKXWJP5la&jump_from=webapi",
                 "description": "加入讨论群提出意见建议！"
             },
             {
                 "name": "投稿与建议",
-                "link": "http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=_J_Zl5mSkZm4iYnWm5eV",
+                "link": "https://docs.qq.com/form/page/DUXBSZ1Z6SW9nT0Zv",
                 "description": "背景投稿与功能建议"
             }
         ]
@@ -148,15 +148,15 @@
         "title": "友情链接",
         "items": [
             {
-                "name": "阿加Erin",
-                "link": "https://ajia.ltd",
-                "description": "@AjiaErin 是站长丫"
+                "name": "LITLUG",
+                "link": "https://www.litlug.org",
+                "description": "Linux用户组（项目组）"
             },
             
             {
-                "name": "来赞助我",
-                "link": "https://www.gaoajia.com/zanzhu.html",
-                "description": "来请我吃棒棒糖！"
+                "name": "AjiaErin",
+                "link": "https://www.gaoajia.com/start-page.html",
+                "description": "项目负责人"
             }
         ]
     }
