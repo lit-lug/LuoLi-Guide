@@ -63,7 +63,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
 
     // 侧边栏  'structuring' | { mode: 'structuring', collapsable: Boolean} | 'auto' | <自定义>    温馨提示：目录页数据依赖于结构化的侧边栏数据，如果你不设置为'structuring',将无法使用目录页
     sidebar: 'structuring',
-    //新建文档时front matter中额外添加的字段
+    //新建文档时front matter中额外添加的字段,当md文件的frontmatter不存在相应的字段时将自动添加。不会覆盖已有的数据。
     extendFrontmatter: {
       comment: false ,
       sidebar: true ,
