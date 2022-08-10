@@ -105,7 +105,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
   
   // 注入到页面<head>中的标签，格式[tagName, { attrName: attrValue }, innerHTML?]
   head: [
-    ['link', { rel: 'icon', href: '/img/favicon.ico' }], //favicons，资源放在public文件夹
+    ['link', { rel: 'icon', href: '/image/favicon.ico' }], //favicons，资源放在public文件夹
     ['script', { src: 'https://cdn.gaoajia.com/Twikoo/twikoo.all.min.js' }],//自建twikoo cdn 当前版本1.6.3
     [
       'meta',
