@@ -3,10 +3,11 @@
  */
 import nav from './config/nav'
 import { resolve } from 'path'
-import { defineConfig4CustomTheme, UserPlugins } from 'vuepress/config'
+import { defineConfig4CustomTheme, UserPlugins, defineConfig } from 'vuepress/config'
 import { VdoingThemeConfig } from 'vuepress-theme-vdoing/types'
 import dayjs from 'dayjs'
 import baiduCode from './config/baiduCode' // 百度统计hm码
+import type { SmPlayerPluginOption } from "vuepress-plugin-smplayer/types";
 
 export default defineConfig4CustomTheme<VdoingThemeConfig>({
   //theme: 'vdoing', // 使用npm包主题
@@ -137,6 +138,31 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
       {
         hm: baiduCode,
       },
+    ],
+
+    [
+      "smplayer",
+      {
+        /* 配置项见详细文档 https://github.com/u2sb/vuepress-plugin-smplayer*/
+        bilibili: {
+          page: 1,
+          danmaku: !0,
+          allowfullscreen: "allowfullscreen",
+          sandbox:
+            "allow-top-navigation allow-same-origin allow-forms allow-scripts allow-popups",
+          width: "100%",
+          height: [9 / 16, 70],
+        },
+        xigua: {
+          autoplay: !1,
+          startTime: 0,
+          allowfullscreen: "allowfullscreen",
+          sandbox:
+            "allow-top-navigation allow-same-origin allow-forms allow-scripts allow-popups",
+          width: "100%",
+          height: [9 / 16, 70],
+        },
+      } as SmPlayerPluginOption,
     ],
 
     // 全文搜索：vuepress-plugin-thirdparty-search

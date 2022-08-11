@@ -6,7 +6,7 @@
     "build": "vuepress build docs",
     "deploy": "bash deploy.sh",
     "editFm": "node utils/editFrontmatter.js",
-    "baiduPush": "node utils/baiduPush.js https://www.iluoli.ren && bash baiduPush.sh"
+    "baiduPush": "node utils/baiduPush.js https://www.iluoli.ren/docs && bash baiduPush.sh"
   },
   "license": "MIT",
   "devDependencies": {
@@ -23,5 +23,8 @@
     "vuepress-plugin-zooming": "^1.1.7",
     "vuepress-theme-vdoing": "^1.12.3",
     "yamljs": "^0.3.0"
+  },
+  "dependencies": {
+    "vuepress-plugin-smplayer": "1"
   }
 }
