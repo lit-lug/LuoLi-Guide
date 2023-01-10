@@ -129,13 +129,21 @@
         cols="12"
       >
         ©{{ new Date().getFullYear() }}
+        &nbsp; 
         <a
-          href="https://www.litunix.org"
+          href="https://github.com/lit-lug"
           class="white--text"
           target="_blank"
           rel="noopener noreferrer nofollow"
-          >LITLUG</a
-        >
+          >LITLUG</a> &nbsp;
+        <!-- 备案 -->
+        <a
+          href="http://beian.miit.gov.cn"
+          class="white--text"
+          target="_blank"
+          rel="noopener noreferrer nofollow"
+          >青ICP备20000145号-3</a>
+
       </v-col>
       <v-snackbar v-model="snackbar">
         {{ snackText }}

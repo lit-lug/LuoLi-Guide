@@ -100,7 +100,11 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     // 页脚信息
     footer: {
       createYear: 2022, 
-      copyrightInfo: '<a href="https://iluoli.ren" target="_blank" title="洛理指南" >LIT LUG</a> | MIT License',
+      copyrightInfo: `
+        <a href='https://iluoli.ren' target='_blank'>LIT LUG</a> | <a href='https://github.com/lit-lug/LuoLi-Guide/blob/main/LICENSE' rel='external nofollow' target='_blank'>MIT License</a>
+        <br>
+        <a href="http://beian.miit.gov.cn/" target="_blank">青ICP备20000145号-3</a>
+      `, 
     },
   },
   
